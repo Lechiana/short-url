@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="area-input">
         <div>
-          <FiLink size={24} color="#FFF" />
+          <FiLink size={24} color="rgb(0, 0, 0)" />
           <input
             placeholder="วาง Link ที่นี่..."
             value={link}
@@ -43,7 +43,12 @@ export default function Home() {
           />
         </div>
 
-        <button onClick={handleShortLink}>สร้าง Short URL</button>
+        <button
+          className="btn btn-active btn-primary"
+          onClick={handleShortLink}
+        >
+          สร้าง Short URL
+        </button>
       </div>
 
       <Menu />

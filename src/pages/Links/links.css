@@ -9,11 +9,12 @@
 }
 
 .links-header svg {
-  margin-right: .875rem;
+  margin-right: 0.875rem;
 }
 
 .links-header h1 {
-  color: #FFF;  
+  color: #fff;
+  font-size: 24px;
 }
 
 .links-item {
@@ -21,33 +22,33 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .link-item:last-child {
-  margin-bottom: 1.125rem
+  margin-bottom: 1.125rem;
 }
 
 .link {
   border: 0;
   width: 100%;
   min-width: 80%;
-  border-radius: .25px;
+  border-radius: 0.25px;
   height: 2.875rem;
-  background-color: rgb(255, 255, 255, .15);
-  margin-right: .875rem;
+  background-color: rgb(255, 255, 255, 0.15);
+  margin-right: 0.875rem;
   display: flex;
   align-items: center;
-  padding: 0 .875rem;
+  padding: 0 0.875rem;
   font-size: 1.125rem;
-  color: #FFF;
+  color: #fff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .link svg {
-  margin-right: .875rem;
+  margin-right: 0.875rem;
 }
 
 .link-delete {
@@ -58,7 +59,7 @@
 .empty-text {
   width: 100%;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   margin-top: 1.75rem;
 }
 
@@ -68,11 +69,11 @@
   }
 
   .logo h1 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
   }
 
   .links-item {
-    width: 100%
+    width: 100%;
   }
 
   .link {

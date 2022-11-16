@@ -11,20 +11,15 @@
 }
 
 .social {
-  margin-right: .875rem;
+  margin-right: 0.875rem;
   display: flex;
   align-items: center;
 }
 
 .menu-item {
-  color: #000;
-  background-color: #FFF;
-  padding: .75rem 1.5rem;
-  border-radius: .25rem;
-  margin-right: .875rem;
-}
-
-.menu-item:hover {
-  background: rgba(255, 255, 255, .8);
-  transition: .5s;
+  color: rgb(252, 252, 252);
+  font-size: 18px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  margin-right: 0.875rem;
 }

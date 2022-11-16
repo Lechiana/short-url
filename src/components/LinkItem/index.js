@@ -12,7 +12,7 @@ export default function LinkItem({ closeModal, content }) {
       <div className="modal-header">
         <h2>Short URL</h2>
         <button onClick={closeModal}>
-          <FiX size={20} color="#000" />
+          <FiX size={20} color="#ffffff" />
         </button>
       </div>
 
@@ -20,7 +20,7 @@ export default function LinkItem({ closeModal, content }) {
 
       <button className="modal-link" onClick={copyLink}>
         {content.link}
-        <FiClipboard size={20} color="#FFF" />
+        <FiClipboard size={20} color="#ffffff" />
       </button>
     </div>
   );
